@@ -1,42 +1,19 @@
+<!DOCTYPE html>
 <html>
-    
-<head>   
-    
-    <style>
-    
-        body{
-            background-color: black;
-        }
-    
-        img{
-            border: 4px solid red;
-        }
-    </style>
-    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
 </head>
-
 <body>
-
-    
     <script>
-        
-        var name = prompt("как тебя зовут?", "Толик");
-        
-        
-        var surname = prompt("какая у тебя фамилия?", "Петрович");
-        
-        var patronymic = prompt("какое отчество?", "Василич");
-        
-       var age = prompt("сколько тебе лет?", "18");
-        
-        var userInfo = "";
-        userInfo = "Отчество: " + patronymic ;
-
-        userInfo = userInfo +  "\n" + "Возраст: " + age ;
-        
-        alert  (userInfo);
-        
+        var day = prompt("Какой день?", "15");
+        var mounth = prompt("какой месяц?", "09");
+        var year = prompt("какой год?", "2000");
+        alert(year + "\n" + mounth + "\n" + day); 
     </script>
 </body>
-
 </html>
